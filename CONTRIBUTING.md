@@ -1,7 +1,42 @@
-# Contributing / المساهمة
+# Contributing
 
-Contributions are welcome. Keep changes focused, local-first, and covered by tests. Use Python 3.10+, create a virtual environment, run `pip install -e . pytest`, then `pytest -q`. Do not commit invoice databases, customer data, secrets, generated invoices, or environment files. Open a focused pull request describing behavior changes and tests.
+Thank you for improving Invoice Maker Lite. Keep contributions focused, local-first, testable, and safe for invoice data.
 
-المساهمات مرحب بها. اجعل التغييرات محددة ومحلية التشغيل ومغطاة بالاختبارات. استخدم Python 3.10 أو أحدث، وشغّل `pytest -q` قبل إرسال الطلب. لا ترفع قواعد بيانات الفواتير أو بيانات العملاء أو الأسرار أو ملفات البيئة أو الفواتير المولدة إلى المستودع.
+## Development setup
 
-By contributing, you agree that your contribution is licensed under the MIT License.
+~~~bash
+git clone https://github.com/rad03i2/invoice-maker-lite.git
+cd invoice-maker-lite
+python -m pip install -e . pytest
+~~~
+
+## Required validation
+
+~~~bash
+python -m pytest -q
+invoice-maker --version
+~~~
+
+For behavior changes, add or update tests and document user-visible CLI changes.
+
+## Financial calculations
+
+Do not replace Decimal-based money handling with binary floating-point arithmetic for invoice totals.
+
+Changes affecting tax, discount, rounding, or totals must include explicit regression tests.
+
+## Data privacy
+
+Use fictional customers and invoice numbers in tests, documentation, screenshots, and examples.
+
+Do not commit invoice databases, customer records, generated real invoices, credentials, environment files, or private business data.
+
+## Export behavior
+
+Keep HTML escaping intact for user-controlled text. Changes to overwrite behavior or deletion behavior should be deliberate and tested.
+
+## Pull requests
+
+Explain the problem, the implementation, compatibility/security impact, tests performed, and documentation updated.
+
+By contributing, you agree that your contribution is licensed under the repository's MIT License.

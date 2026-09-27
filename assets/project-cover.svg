@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+<title id="title">Invoice Maker Lite project cover</title>
+<desc id="desc">Premium editorial invoice identity with a paper ledger and local billing workflow.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F0E7"/><stop offset="1" stop-color="#E4DDD0"/></linearGradient>
+  <linearGradient id="emerald" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#123B35"/><stop offset="1" stop-color="#0B2B27"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9A05C"/><stop offset="1" stop-color="#A77C35"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#2F2415" flood-opacity=".18"/></filter>
+  <pattern id="rule" width="1600" height="48" patternUnits="userSpaceOnUse"><path d="M0 47.5H1600" stroke="#5A4A37" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1600" height="640" rx="34" fill="url(#bg)"/>
+<rect width="1600" height="640" rx="34" fill="url(#rule)"/>
+<path d="M0 0h1600v16H0z" fill="url(#emerald)"/>
+<g transform="translate(92 92)">
+  <rect width="188" height="38" rx="19" fill="#123B35" fill-opacity=".07" stroke="#123B35" stroke-opacity=".20"/>
+  <circle cx="23" cy="19" r="5" fill="#123B35"/>
+  <text x="40" y="25" fill="#123B35" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1.8">LOCAL BILLING TOOL</text>
+  <text x="0" y="145" fill="#14251F" font-family="Georgia,Times New Roman,serif" font-size="82" font-weight="700" letter-spacing="-3">Invoice Maker</text>
+  <text x="505" y="145" fill="url(#gold)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="800" letter-spacing="2">LITE</text>
+  <text x="2" y="196" fill="#665A4B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">Local invoices. Clear totals. Portable exports.</text>
+  <g transform="translate(0 242)">
+    <rect width="162" height="44" rx="22" fill="#FFFFFF" fill-opacity=".52" stroke="#123B35" stroke-opacity=".12"/>
+    <text x="24" y="28" fill="#203B34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">SQLite records</text>
+    <rect x="176" width="170" height="44" rx="22" fill="#FFFFFF" fill-opacity=".52" stroke="#123B35" stroke-opacity=".12"/>
+    <text x="200" y="28" fill="#203B34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Decimal totals</text>
+    <rect x="360" width="182" height="44" rx="22" fill="#FFFFFF" fill-opacity=".52" stroke="#123B35" stroke-opacity=".12"/>
+    <text x="384" y="28" fill="#203B34" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">HTML + JSON</text>
+  </g>
+  <g transform="translate(0 378)">
+    <text x="0" y="0" fill="#887A68" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1.5">A RADWAN ABD ALHADY PROJECT</text>
+    <text x="0" y="40" fill="#14251F" font-family="Tahoma,Arial,sans-serif" font-size="24" font-weight="700">رضوان عبدالهادي</text>
+    <text x="0" y="72" fill="#6E6253" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Radwan Abd alhady Ahmed</text>
+  </g>
+</g>
+<g transform="translate(990 82)" filter="url(#shadow)">
+  <rect x="40" y="28" width="430" height="492" rx="28" fill="#D9D2C5" opacity=".6" transform="rotate(4 255 274)"/>
+  <rect x="0" y="0" width="430" height="492" rx="28" fill="#FFFDF8" stroke="#B7AA97" stroke-opacity=".48"/>
+  <rect x="0" y="0" width="430" height="74" rx="28" fill="url(#emerald)"/>
+  <path d="M0 46h430v28H0z" fill="url(#emerald)"/>
+  <text x="30" y="46" fill="#F7F1E6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">INVOICE</text>
+  <text x="316" y="46" fill="#D8B475" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">INV-2026-001</text>
+  <text x="30" y="112" fill="#7A6B59" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">BILL TO</text>
+  <rect x="30" y="128" width="146" height="11" rx="5.5" fill="#1A3B34" fill-opacity=".76"/>
+  <rect x="30" y="151" width="112" height="8" rx="4" fill="#1A3B34" fill-opacity=".16"/>
+  <g transform="translate(30 194)">
+    <rect width="370" height="38" rx="8" fill="#123B35" fill-opacity=".06"/>
+    <text x="14" y="24" fill="#5E5142" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">DESCRIPTION</text>
+    <text x="214" y="24" fill="#5E5142" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">QTY</text>
+    <text x="270" y="24" fill="#5E5142" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">PRICE</text>
+    <text x="330" y="24" fill="#5E5142" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">TOTAL</text>
+    <g transform="translate(0 56)"><rect width="170" height="9" rx="4.5" fill="#233F38" fill-opacity=".55"/><rect x="218" width="26" height="9" rx="4.5" fill="#233F38" fill-opacity=".26"/><rect x="272" width="48" height="9" rx="4.5" fill="#233F38" fill-opacity=".26"/><rect x="330" width="40" height="9" rx="4.5" fill="#233F38" fill-opacity=".45"/></g>
+    <g transform="translate(0 90)"><rect width="128" height="9" rx="4.5" fill="#233F38" fill-opacity=".40"/><rect x="218" width="26" height="9" rx="4.5" fill="#233F38" fill-opacity=".20"/><rect x="272" width="48" height="9" rx="4.5" fill="#233F38" fill-opacity=".20"/><rect x="330" width="40" height="9" rx="4.5" fill="#233F38" fill-opacity=".35"/></g>
+    <path d="M0 122h370" stroke="#A99B88" stroke-opacity=".45"/>
+  </g>
+  <g transform="translate(220 344)">
+    <text x="0" y="0" fill="#7A6B59" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">SUBTOTAL</text>
+    <text x="118" y="0" fill="#1A332D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">120.00 USD</text>
+    <text x="0" y="30" fill="#7A6B59" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">TAX</text>
+    <text x="118" y="30" fill="#1A332D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">5.50</text>
+    <path d="M0 51h178" stroke="#A99B88" stroke-opacity=".5"/>
+    <text x="0" y="82" fill="#123B35" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">TOTAL</text>
+    <text x="96" y="82" fill="#123B35" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="800">125.50</text>
+  </g>
+  <g transform="translate(34 405)">
+    <rect width="108" height="38" rx="19" fill="#123B35" fill-opacity=".08" stroke="#123B35" stroke-opacity=".22"/>
+    <circle cx="20" cy="19" r="6" fill="#2E806C"/>
+    <text x="37" y="25" fill="#285F52" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">PAID</text>
+  </g>
+</g>
+</svg>

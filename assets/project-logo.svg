@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Invoice Maker Lite logo</title>
+<desc id="desc">A premium invoice sheet with ledger lines and a verified status seal.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F0E7"/><stop offset="1" stop-color="#E4DCCF"/></linearGradient>
+  <linearGradient id="emerald" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17483F"/><stop offset="1" stop-color="#0B2B27"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D1AE6B"/><stop offset="1" stop-color="#A77C35"/></linearGradient>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#352A1A" flood-opacity=".18"/></filter>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<circle cx="414" cy="100" r="112" fill="#C9A05C" fill-opacity=".09"/>
+<circle cx="88" cy="425" r="108" fill="#123B35" fill-opacity=".07"/>
+<g filter="url(#shadow)">
+  <rect x="126" y="82" width="260" height="348" rx="42" fill="#FFFDF8" stroke="#B9AB98" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M126 124a42 42 0 0 1 42-42h176a42 42 0 0 1 42 42v44H126z" fill="url(#emerald)"/>
+  <rect x="166" y="128" width="108" height="13" rx="6.5" fill="#F5EEDF" fill-opacity=".88"/>
+  <rect x="166" y="194" width="180" height="12" rx="6" fill="#173A33" fill-opacity=".23"/>
+  <rect x="166" y="228" width="142" height="12" rx="6" fill="#173A33" fill-opacity=".17"/>
+  <rect x="166" y="276" width="180" height="9" rx="4.5" fill="#173A33" fill-opacity=".16"/>
+  <rect x="166" y="306" width="180" height="9" rx="4.5" fill="#173A33" fill-opacity=".16"/>
+  <path d="M166 348h180" stroke="#A99B88" stroke-opacity=".54" stroke-width="3"/>
+  <rect x="218" y="370" width="128" height="12" rx="6" fill="url(#gold)" fill-opacity=".88"/>
+  <g transform="translate(319 317)">
+    <circle cx="54" cy="54" r="54" fill="#F4EFE6" stroke="#123B35" stroke-width="7"/>
+    <circle cx="54" cy="54" r="40" fill="#123B35" fill-opacity=".08" stroke="#C9A05C" stroke-width="3"/>
+    <path d="m32 55 14 14 30-32" fill="none" stroke="#123B35" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+</svg>
